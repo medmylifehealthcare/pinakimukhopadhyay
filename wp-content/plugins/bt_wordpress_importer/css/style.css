@@ -1,0 +1,71 @@
+.bt_start_padding {
+	padding-top: 50px;
+}
+
+.n-spin{
+	height: 20px !important;
+	width: 20px !important;
+	font-size: 20px !important;
+}
+
+.bt_end_padding {
+	padding-bottom: 50px;
+}
+
+.bt_import_wrap {
+	background-color: #ffffff;
+	padding: 20px;
+	min-height: 100vh;
+}
+
+.bt_import_card {
+	padding: 10px;
+	cursor: pointer;
+}
+
+.bt_import_card button{
+	background-color: #ffffff !important;
+}
+
+.bt_import_card.active {
+	border: 10px solid #2196f3;
+}
+
+.bt_import_xml { 
+	cursor: pointer;
+}
+
+.bt_img_demo {
+	max-height: 200px;
+    object-fit:cover;
+	object-position: top;
+}
+
+.bt_import_xml:hover {
+	color: #888;
+}
+
+.bt_import_statistics {
+	animation: blinker 1s linear infinite;
+}
+
+.bt_import_progress {
+	animation: blinker 1s linear infinite;
+	display: none;
+}
+
+@keyframes blinker {  
+	50% { opacity: 0.0; }
+}
+
+.bt_wordpress_importer td {
+	padding-left: 0;
+}
+
+#bt_disable_image_processing {
+	margin-top: -1px;
+}
+
+.n-badge .n-badge-sup {
+    background: #ff7f00;
+}

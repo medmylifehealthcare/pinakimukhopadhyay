@@ -1,0 +1,18 @@
+/* MASONRY portfolio  GRID */
+.bt_bb_masonry_portfolio_grid .bt_bb_grid_item_post_content {
+	.bt_bb_grid_item_meta {
+		> span {
+			&:before {
+				display: inline-block;
+				margin: 0 5px 0 0;
+				font-size: inherit;
+				line-height: inherit;
+				font-weight: 400;
+				font-family: FontAwesome;
+			}
+		}
+	}
+	.bt_bb_grid_item_post_share {
+		margin-top: 1em;
+	}
+}

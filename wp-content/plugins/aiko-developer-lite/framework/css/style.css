@@ -1,0 +1,1179 @@
+/* General */
+.aiko-developer-code-actions {
+  /* background: #f6f7f7; */
+  margin: 0;
+  padding: 0.3em 0 0;
+}
+#post-body-content .aiko-developer-code-actions {
+  border-bottom: 5px solid black;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+
+.postbox-container pre {
+  white-space: break-spaces;
+}
+.postbox-container .aiko-developer-code-actions {
+  border-top: 1px solid #dcdcde;
+  padding-top: 1em;
+}
+
+.button.aiko-developer-button-secondary {
+  /* border-color: currentColor; */
+  border-color: #9E9E9E;
+  color: #9e9e9e;
+  font-size: 12px;
+}
+.postbox-container .button.aiko-developer-button-secondary {
+  border: none;
+}
+.button.aiko-developer-outdated-plugin {
+  font-weight: 700;
+  border-width: 2px;
+}
+
+.aiko-developer-blinker {
+  /* animation: aiko-developer-blink 0.2s 3; */
+  animation-name: aiko-developer-blink;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 5;
+  opacity: 1;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in;
+}
+
+@keyframes aiko-developer-blink {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.02);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+#aiko-developer-after-title, #aiko-developer-download-meta-box, #aiko-developer-confidence-meta-box, #aiko-developer-suggestions-meta-box, #aiko-developer-php-output-meta-box, #aiko-developer-js-output-meta-box, #aiko-developer-css-output-meta-box {
+  display: none;
+}
+
+.mfp-bg {
+  z-index: 9999 !important;
+}
+
+.mfp-wrap {
+  z-index: 10000 !important;
+}
+
+/* Comment input */
+#aiko-developer-input {
+  width: 100%;
+  border-color: #2c3338;
+  /* margin-bottom: 0.3em; */
+}
+
+/* Slug */
+.aiko-developer-after-title-info-div {
+  display: flex;
+  justify-content: space-between;
+}
+.aiko-developer-after-title-info-div .aiko-developer-post-slug-div {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+.aiko-developer-after-title-info-div .aiko-developer-post-slug-div input {
+  min-width: 20em;
+}
+.aiko-developer-after-title-info-div .aiko-developer-post-slug-div input:not(:focus) {
+  border-color: transparent;
+  background: transparent;
+  opacity: 0.5;
+  text-decoration: underline;
+}
+.aiko-developer-after-title-info-div .aiko-developer-post-data-div {
+  padding: 7px 0;
+}
+.aiko-developer-after-title-info-div .aiko-developer-post-data-div > span span {
+  opacity: 0.5;
+}
+.aiko-developer-after-title-info-div .aiko-developer-post-data-div > span:not(:first-child):before {
+  content: " / ";
+  color: #999;
+}
+.aiko-developer-after-title-info-div .aiko-developer-post-data-div > span.aiko-developer-post-not-saved {
+  color: red;
+}
+.aiko-developer-after-title-info-div .aiko-developer-post-data-div > span.aiko-developer-post-not-saved span {
+  opacity: 1;
+}
+.aiko-developer-after-title-info-div .aiko-developer-post-data-div > span.aiko-developer-post-data-bad {
+  color: red;
+}
+.aiko-developer-after-title-info-div .aiko-developer-post-data-div > span.aiko-developer-post-data-bad span {
+  font-weight: 700;
+  opacity: 1;
+}
+.aiko-developer-after-title-info-div .aiko-developer-post-data-div > span.aiko-developer-post-data-model span {
+  opacity: 0.5;
+}
+.aiko-developer-after-title-info-div .aiko-developer-post-data-div > span.aiko-developer-post-data-invisible {
+  display: none;
+}
+
+/* Code genius block */
+#poststuff .aiko-developer-block {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+#poststuff .aiko-developer-block .aiko-developer-block-title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.4em;
+}
+#poststuff .aiko-developer-block .aiko-developer-block-content {
+  margin: 0;
+  padding: 1em;
+  border: 1px solid gray;
+  background: white;
+}
+
+.aiko-developer-block-description {
+  margin: 0 0 0.5em;
+  padding: 0;
+  opacity: 0.5;
+  line-height: inherit;
+}
+
+/* Active model */
+#aiko-developer-active-model {
+  float: right;
+  white-space: nowrap;
+}
+#aiko-developer-active-model span {
+  opacity: 0.5;
+  vertical-align: middle;
+  margin-right: 1em;
+}
+#aiko-developer-active-model input {
+  margin-top: 0.1em;
+  margin-right: 0.1em;
+}
+
+#post-body-content, .edit-form-section {
+  margin-bottom: 0;
+}
+
+/* Functional requirements */
+#aiko-developer-functional-requirements-output.aiko-developer-block .aiko-developer-block-title {
+  font-size: 1.6em;
+}
+#aiko-developer-functional-requirements-output.aiko-developer-block .aiko-developer-block-content {
+  border: 1px solid #8c8f94;
+  background: white;
+  font-size: 1.25em;
+  border-radius: 5px;
+}
+#aiko-developer-functional-requirements-output.aiko-developer-block .aiko-developer-tooltip-container i {
+  opacity: 0.25;
+}
+
+/* Improvemets and suggestions */
+.aiko-developer-improvements-suggestions-wrapper {
+  display: flex;
+  gap: 2em;
+  /* margin-bottom: 2em; */
+  /* padding-bottom: 2em;	 */
+  /* border-bottom: 5px solid black; */
+  /*#aiko-developer-improvements-wrapper {
+  	flex-basis: 35%; 
+  }*/
+}
+body.post-new-php .aiko-developer-improvements-suggestions-wrapper {
+  border: none;
+}
+.aiko-developer-improvements-suggestions-wrapper #aiko-developer-input-wrapper {
+  flex-basis: 100%;
+}
+body.post-new-php .aiko-developer-improvements-suggestions-wrapper {
+  flex-wrap: wrap;
+}
+body.post-new-php .aiko-developer-improvements-suggestions-wrapper #aiko-developer-input-wrapper, body.post-new-php .aiko-developer-improvements-suggestions-wrapper #aiko-developer-improvements-wrapper {
+  flex-basis: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .aiko-developer-improvements-suggestions-wrapper {
+    flex-wrap: wrap;
+  }
+  .aiko-developer-improvements-suggestions-wrapper #aiko-developer-input-wrapper {
+    flex-basis: 100%;
+  }
+  .aiko-developer-improvements-suggestions-wrapper #aiko-developer-improvements-wrapper {
+    flex-basis: 100%;
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+/* Download */
+#aiko-developer-download .aiko-developer-button-container {
+  display: flex;
+  gap: 0.5em;
+}
+#aiko-developer-download .aiko-developer-button-container button {
+  flex: 0 1 auto;
+  width: 100%;
+  display: block;
+  margin-bottom: 5px;
+}
+#aiko-developer-download .aiko-developer-button-container .aiko-developer-tooltip-container {
+  flex: 1 0 auto;
+}
+
+/* Confidence */
+.postbox .inside #aiko-developer-confidence-level h3 {
+  line-height: 1;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-size: 3.3em;
+}
+
+#aiko-developer-confidence-level h3 {
+  color: gray;
+}
+
+#aiko-developer-confidence-level[data-confidence-level="90"] h3,
+#aiko-developer-confidence-level[data-confidence-level="91"] h3,
+#aiko-developer-confidence-level[data-confidence-level="92"] h3,
+#aiko-developer-confidence-level[data-confidence-level="93"] h3,
+#aiko-developer-confidence-level[data-confidence-level="94"] h3,
+#aiko-developer-confidence-level[data-confidence-level="95"] h3,
+#aiko-developer-confidence-level[data-confidence-level="96"] h3,
+#aiko-developer-confidence-level[data-confidence-level="97"] h3,
+#aiko-developer-confidence-level[data-confidence-level="98"] h3,
+#aiko-developer-confidence-level[data-confidence-level="99"] h3,
+#aiko-developer-confidence-level[data-confidence-level="100"] h3 {
+  color: green;
+}
+
+#aiko-developer-php-output-meta-box pre:empty:before,
+#aiko-developer-js-output-meta-box pre:empty:before,
+#aiko-developer-css-output-meta-box pre:empty:before {
+  content: "No code here";
+}
+
+.aiko-developer-improvement {
+  display: flex;
+}
+.aiko-developer-improvement input {
+  margin-top: 0.1em;
+  flex-shrink: 0;
+}
+
+/* Code */
+#aiko-developer-css-output-meta-box .button.aiko-developer-button-secondary,
+#aiko-developer-js-output-meta-box .button.aiko-developer-button-secondary,
+#aiko-developer-php-output-meta-box .button.aiko-developer-button-secondary {
+  float: right;
+}
+
+/* Notice */
+.aiko-developer-notice {
+  padding: 1em;
+  background: white;
+  border: 2px solid green;
+  border-radius: 5px;
+  margin: 1em 0;
+  /* align-items: center; */
+  align-items: flex-start;
+  display: none;
+}
+.aiko-developer-notice.aiko-developer-notice-show {
+  display: flex;
+  /* align-items: center; */
+}
+.aiko-developer-notice .aiko-developer-notice-content {
+  padding: 0 0 0 1em;
+  margin: 0;
+  flex-basis: 100%;
+  flex-shrink: 1;
+  align-self: center;
+}
+.aiko-developer-notice .aiko-developer-notice-content h4 {
+  margin: 0 0 0.5em 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+.aiko-developer-notice .aiko-developer-notice-content p {
+  margin: 0;
+  /*&#aiko-developer-code-not-generated-text {
+  	font-weight: 700;
+  	font-size: 1.1em;
+  }*/
+}
+.aiko-developer-notice .aiko-developer-notice-content p[data-message*=success-generate] {
+  font-weight: 700;
+  font-size: 1.1em;
+}
+.aiko-developer-notice .aiko-developer-notice-content .aiko-developer-notice-content-tools {
+  border-top: 1px solid #ccc;
+  margin-top: 1em;
+  padding-top: 1em;
+  width: 100%;
+}
+.aiko-developer-notice .aiko-developer-notice-content .aiko-developer-notice-content-tools span {
+  opacity: 0.5;
+}
+.aiko-developer-notice .aiko-developer-notice-content .aiko-developer-notice-content-tools .button {
+  margin-bottom: 3px;
+}
+.aiko-developer-notice:before {
+  content: "i";
+  font-size: 2em;
+  font-weight: 800;
+  flex: 0 0 1.6em;
+  height: 1.6em;
+  line-height: 1.6em;
+  text-align: center;
+  background: green;
+  color: white;
+  border-radius: 50%;
+}
+.aiko-developer-notice.aiko-developer-notice-error {
+  border-color: red;
+}
+.aiko-developer-notice.aiko-developer-notice-error:before {
+  content: "!";
+  background: red;
+}
+.aiko-developer-notice .aiko-developer-notice-close {
+  flex-basis: 1em;
+}
+.aiko-developer-notice .aiko-developer-notice-close:before {
+  cursor: pointer;
+  font: normal 20px/1 dashicons;
+  content: "";
+  text-align: center;
+  color: #444;
+  opacity: 0.5;
+}
+.aiko-developer-notice .aiko-developer-notice-close:hover:before {
+  opacity: 1;
+}
+
+/* Popup */
+.aiko-developer-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  z-index: 9998;
+}
+.aiko-developer-popup-overlay .aiko-developer-popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 10000;
+  max-width: 800px;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.aiko-developer-popup-overlay .aiko-developer-popup-content h1, .aiko-developer-popup-overlay .aiko-developer-popup-content h2, .aiko-developer-popup-overlay .aiko-developer-popup-content h3, .aiko-developer-popup-overlay .aiko-developer-popup-content h4 {
+  padding: 0;
+  margin: 0;
+  line-height: 1.1;
+}
+.aiko-developer-popup-overlay .aiko-developer-popup-content .aiko-developer-popup-content-text {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  flex-basis: 100%;
+}
+.aiko-developer-popup-overlay .aiko-developer-popup-content .aiko-developer-popup-content-text textarea {
+  width: 100%;
+  height: 100%;
+}
+.aiko-developer-popup-overlay.aiko-developer-popup-confirm .aiko-developer-popup-content {
+  height: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .aiko-developer-popup-overlay .aiko-developer-popup-content {
+    left: 10%;
+    transform: translate(-5%, -50%);
+  }
+}
+body.aiko-developer-disabled {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+/* Rephrase new popup */
+#aiko-developer-comment-not-added, #aiko-developer-chatbox-wrapper > b {
+  display: none;
+  /* TODO: skloni ovo */
+}
+
+#aiko-developer-rephrase,
+#aiko-developer-import-prompt {
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+/* Temp */
+/*#aiko-developer-import-prompt {
+    display: none !important;
+	opacity: 0 !important;
+}*/
+#aiko-developer-rephrased-popup-content-text,
+#aiko-developer-rephrased-user-prompt-popup-content-text {
+  display: flex;
+  /* gap: 1em; */
+  flex: 1;
+  overflow: auto;
+}
+#aiko-developer-rephrased-popup-content-text > div,
+#aiko-developer-rephrased-user-prompt-popup-content-text > div {
+  flex-basis: 50%;
+}
+#aiko-developer-rephrased-popup-content-text > div b,
+#aiko-developer-rephrased-user-prompt-popup-content-text > div b {
+  /* font-size: 1.1em; */
+}
+
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  max-width: initial;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content .aiko-developer-popup-content-title .aiko-developer-block-description {
+  margin: 0;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text {
+  padding: 0;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-current {
+  background: white;
+  padding: 1em 1em 0 0;
+  overflow-y: scroll;
+  font-size: 14px;
+  line-height: 1.5;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-current div {
+  font-size: inherit;
+  line-height: inherit;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-current div#aiko-developer-current-text {
+  margin: 0;
+  padding: 0;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons {
+  background: white;
+  flex-basis: 100%;
+  overflow-y: scroll;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-single-message {
+  margin: 0 1em;
+  padding: 1em 0;
+  border-top: 2px solid gray;
+  opacity: 0.5;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-single-message:first-of-type {
+  border-top: none;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-single-message:last-of-type {
+  opacity: 1;
+  padding: 1em 1em 0;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+  border-radius: 10px 10px 0 0;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-single-message:last-of-type:first-of-type {
+  margin-top: 1em;
+  border-top: 2px solid gray;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-user-message {
+  /* opacity: 0.5; */
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #eee;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-user-message div:not(:first-of-type) {
+  margin-top: 0.5em;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-user-message p {
+  margin: 0;
+  padding: 0;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-user-message p.aiko-developer-chatbox-user-message-comment, #aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-user-message p.aiko-developer-chatbox-user-message-question {
+  font-weight: 600;
+  font-size: 1.1em;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-user-message p.aiko-developer-chatbox-user-message-comment, #aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-user-message p.aiko-developer-chatbox-user-message-question, #aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-user-message p.aiko-developer-chatbox-user-message-answer {
+  position: relative;
+  padding-left: 1.5em;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-user-message p.aiko-developer-chatbox-user-message-comment:before, #aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-user-message p.aiko-developer-chatbox-user-message-question:before, #aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-user-message p.aiko-developer-chatbox-user-message-answer:before {
+  font-weight: 400;
+  font-family: dashicons;
+  margin-right: 0.25em;
+  font-size: 16px;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-user-message p.aiko-developer-chatbox-user-message-comment:before {
+  content: "";
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-user-message p.aiko-developer-chatbox-user-message-question:before {
+  content: "";
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-user-message p.aiko-developer-chatbox-user-message-answer:before {
+  /* content: "\f339"; */
+  content: " ";
+  padding-left: 1em;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-messages .aiko-developer-chatbox-consultant-message p:first-of-type {
+  margin-top: 0;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-buttons {
+  margin: 0 1em 1em;
+  padding: 1em;
+  border: 2px solid gray;
+  border-radius: 0 0 10px 10px;
+  border-top: none;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-buttons #aiko-developer-chatbox-cancel-final:before,
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-buttons #aiko-developer-chatbox-submit-final:before {
+  font-family: dashicons;
+  margin-right: 0.25em;
+  font-size: 16px;
+  line-height: 1;
+  vertical-align: middle;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-buttons #aiko-developer-chatbox-cancel-final {
+  border: none;
+  background: transparent;
+  color: #F44336;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-buttons #aiko-developer-chatbox-cancel-final:before {
+  content: "";
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-buttons #aiko-developer-chatbox-submit-final {
+  border-color: #4CAF50;
+  background: #4CAF50;
+  color: white;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-buttons #aiko-developer-chatbox-submit-final:before {
+  content: "";
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-messages-buttons #aiko-developer-chatbox-buttons .aiko-developer-tooltip-container {
+  margin-top: 0.5em;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-comments {
+  display: flex;
+  align-items: end;
+  gap: 1em;
+  border-top: 3px solid black;
+  padding: 1em;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-comments h4 {
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+  font-size: 1.2em;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-comments #aiko-developer-chatbox-comment {
+  flex-basis: 100%;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-comments #aiko-developer-chatbox-comment textarea {
+  width: 100%;
+  height: 3em;
+  display: block;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-comments #aiko-developer-chatbox-comment textarea:focus {
+  height: 6em;
+}
+.aiko-developer-lite #aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-comments #aiko-developer-chatbox-comment {
+  opacity: 0.5;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-comments #aiko-developer-chatbox-clarifications {
+  flex-basis: 100%;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-comments #aiko-developer-chatbox-clarifications .aiko-developer-block-description {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #eee;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-comments #aiko-developer-chatbox-clarifications .aiko-developer-chatbox-clarification-question {
+  font-weight: 600;
+  margin-bottom: 0.25em;
+  /* font-size: 1.1em; */
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-comments #aiko-developer-chatbox-clarifications div:first-of-type .aiko-developer-chatbox-clarification-question {
+  margin-top: 0;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-comments #aiko-developer-chatbox-clarifications label {
+  margin-right: 1em;
+  font-style: italic;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-comments #aiko-developer-chatbox-clarifications label:last-of-type {
+  white-space: nowrap;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-comments #aiko-developer-chatbox-clarifications .aiko-developer-other-input {
+  margin-top: 0.2em;
+  width: 100%;
+}
+#aiko-developer-rephrased-popup-overlay.aiko-developer-popup-overlay .aiko-developer-popup-content-text #aiko-developer-chatbox-wrapper #aiko-developer-chatbox #aiko-developer-chatbox-comments #aiko-developer-chatbox-clarifications .aiko-developer-other-input input {
+  width: 100%;
+}
+/* Loader */
+#aiko-developer-loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  z-index: 9999;
+}
+#aiko-developer-loader-overlay #aiko-developer-loader-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10000;
+}
+#aiko-developer-loader-overlay #aiko-developer-loader-container #aiko-developer-loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  display: inline-block;
+}
+#aiko-developer-loader-overlay #aiko-developer-loader-container #aiko-developer-loader-text {
+  margin-top: 20px;
+  color: white;
+  font-size: 16px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Tooltip */
+.aiko-developer-tooltip-container {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+.aiko-developer-tooltip-container i.dashicons {
+  display: block;
+  vertical-align: bottom;
+  opacity: 0.5;
+  width: 16px;
+}
+.aiko-developer-tooltip-container i.dashicons:hover {
+  opacity: 1;
+}
+.aiko-developer-tooltip-container .aiko-developer-tooltip-text {
+  white-space: break-spaces;
+  z-index: 9;
+  padding: 0.5em;
+  background: #444;
+  color: white;
+  position: absolute;
+  left: -94px;
+  bottom: 100%;
+  margin-bottom: 10px;
+  width: 200px;
+  display: none;
+  text-align: center;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.28);
+}
+.aiko-developer-tooltip-container .aiko-developer-tooltip-text:after {
+  pointer-events: none;
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-top: solid #444 10px;
+  bottom: -9px;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -13px;
+  position: absolute;
+  width: 0;
+}
+#aiko-developer-importing-selected .aiko-developer-tooltip-container .aiko-developer-tooltip-text {
+  bottom: -400%;
+}
+#aiko-developer-importing-selected .aiko-developer-tooltip-container .aiko-developer-tooltip-text:after {
+  transform: rotate(180deg);
+  top: -9px;
+  bottom: auto;
+}
+.aiko-developer-tooltip-container.aiko-developer-prompt-base-prompt-warning .aiko-developer-tooltip-text {
+  background: red;
+}
+.aiko-developer-tooltip-container.aiko-developer-prompt-base-prompt-warning .aiko-developer-tooltip-text:after {
+  border-top: solid red 10px;
+}
+.aiko-developer-tooltip-container.aiko-developer-prompt-base-prompt-warning i.dashicons {
+  color: red;
+}
+.aiko-developer-tooltip-container.aiko-developer-tooltip-arrow-right .aiko-developer-tooltip-text {
+  left: -164px;
+  text-align: left;
+}
+.aiko-developer-tooltip-container.aiko-developer-tooltip-arrow-right .aiko-developer-tooltip-text:after {
+  right: 30px;
+  left: initial;
+}
+.aiko-developer-tooltip-container:has(i.dashicons:hover) .aiko-developer-tooltip-text {
+  display: block;
+}
+
+/* Welcome screen */
+.aiko-developer-welcome-wrapper {
+  margin: 20px 20px 20px 0;
+  padding: 3em;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.28);
+  color: white;
+  background-color: black;
+  background-image: url("/wp-content/plugins/aiko-developer-lite/framework/img/welcome_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aiko-developer-welcome-wrapper h1 {
+  min-height: 5em;
+  color: white;
+  background-image: url("/wp-content/plugins/aiko-developer-lite/framework/img/welcome_logo_white.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.aiko-developer-welcome-wrapper h1 span {
+  display: none;
+}
+.aiko-developer-welcome-wrapper .aiko-developer-welcome-supertitle {
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+.aiko-developer-welcome-wrapper .aiko-developer-welcome-subtitle {
+  font-size: 2em;
+}
+.aiko-developer-welcome-wrapper .aiko-developer-welcome-tools {
+  margin-top: 3em;
+}
+
+/* Settings */
+.aiko_developer_temperature_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.aiko_developer_temperature_wrapper .aiko_developer_temperature_value_wrapper {
+  order: 1;
+}
+.aiko_developer_temperature_wrapper .aiko_developer_temperature_range_wrapper input {
+  width: 280px;
+}
+.aiko_developer_temperature_wrapper p.description {
+  flex-basis: 100%;
+  order: 2;
+}
+
+.form-table p.description {
+  font-size: 13px;
+  color: #9E9E9E;
+}
+.form-table tr ul:first-child {
+  margin-top: 0;
+}
+
+#aiko_developer_additional_instalations_slugs {
+  width: 270px;
+}
+
+.aiko_developer_additional_instalations_ul {
+  margin-bottom: 0;
+}
+
+.aiko-developer-settings-show {
+  display: block !important;
+}
+
+form.aiko-developer-settings-hidden {
+  display: none;
+}
+
+form.aiko-developer-hidden {
+  display: none !important;
+}
+
+form.aiko-developer-settings-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.aiko-developer-settings-on-top {
+  order: -1;
+}
+
+.aiko-developer-ai-selection label {
+  margin-right: 5px;
+}
+
+/* Import */
+.aiko-developer-popup-content.aiko-developer-popup-content-import {
+  max-width: 1200px;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import .aiko-developer-not-matching {
+  color: red;
+  opacity: 1 !important;
+  FONT-WEIGHT: 600;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import .aiko-developer-popup-content-title #aiko-developer-prompt-base-close {
+  position: absolute;
+  right: 1.5em;
+  top: 1.5em;
+  color: red;
+  cursor: pointer;
+  color: #F44336;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import .aiko-developer-popup-content-title #aiko-developer-prompt-base-close:before {
+  font-family: dashicons;
+  margin-right: 0.25em;
+  font-size: 16px;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text {
+  display: flex;
+  gap: 1em;
+  overflow: hidden;
+  padding: 0;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list {
+  flex: 1;
+  height: 100%;
+  padding-right: 1em;
+  padding: 1em 1em 0 0;
+  box-sizing: border-box;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner {
+  height: calc(100% - 2em);
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-tabs .aiko-developer-prompt-base-tab {
+  padding: 4px 8px;
+  cursor: pointer;
+  background: #f0f0f0;
+  border-radius: 5px;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-tabs .aiko-developer-prompt-base-tab.aiko-developer-prompt-base-active {
+  background: #007BFF;
+  color: white;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner #aiko-developer-prompt-base-prompts {
+  overflow: auto;
+  height: calc(100% - 2em);
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-container {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-container.aiko-developer-prompt-base-selected {
+  border-color: #007BFF;
+  background-color: #E6F0FF;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-container.aiko-developer-prompt-base-pro-only {
+  opacity: 0.3;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-container.aiko-developer-prompt-base-pro-only:hover {
+  opacity: 1;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-container h3 {
+  margin-bottom: 0.2em;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-container p {
+  margin: 0;
+  font-size: 12px;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-container p strong {
+  display: inline-block;
+  width: 100px;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-container p.aiko-developer-prompt-base-prompt-model {
+  display: inline-block;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-container p span.aiko-developer-prompt-base-prompt-span-temperature {
+  opacity: 0.7;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-container p.aiko-developer-prompt-base-prompt-description {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+  opacity: 0.7;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-container .aiko-developer-tooltip-container.aiko-developer-prompt-base-prompt-warning {
+  opacity: 0;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-container .aiko-developer-tooltip-container.aiko-developer-prompt-base-prompt-warning:first-of-type {
+  /* margin-left: 0.5em; */
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-list #aiko-developer-prompt-base-list-inner .aiko-developer-prompt-base-container:hover .aiko-developer-tooltip-container.aiko-developer-prompt-base-prompt-warning {
+  opacity: 1;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-preview {
+  flex: 1;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-preview #aiko-developer-importing-selected-heading {
+  /* border-bottom: 1px solid #ccc; */
+  /* margin-bottom: 0.5em; */
+  /* padding-bottom: 0.5em; */
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-preview #aiko-developer-importing-selected-prompt-wrapper {
+  overflow: auto;
+  /* height: calc(76% - 2em); */
+  flex-basis: 100%;
+  padding: 0.5em 0.5em 0.5em 0em;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-preview #aiko-developer-importing-selected {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 1em 0;
+  /* overflow: auto; */
+  box-sizing: border-box;
+  height: calc(100% - 2em);
+  display: flex;
+  flex-direction: column;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-preview h3 {
+  margin: 0 0 0.2em;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-preview p {
+  margin: 0;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-preview p strong {
+  display: inline-block;
+  width: 100px;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-preview p span#aiko-developer-importing-selected-temperature {
+  opacity: 0.7;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-preview p.aiko-developer-prompt-base-prompt-model {
+  /* display: inline-block; */
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-preview p#aiko-developer-importing-selected-description {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5em;
+  /* margin-bottom: 0.5em; */
+  opacity: 0.7;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-preview #aiko-developer-importing-buttons {
+  border-top: 1px solid #ddd;
+  padding-top: 0.75em;
+  /* margin-top: 0.75em; */
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-preview p.aiko-developer-importing-selected-prompt-text strong {
+  width: 100%;
+}
+.aiko-developer-popup-content.aiko-developer-popup-content-import #aiko-developer-prompt-base-content-text #aiko-developer-prompt-base-preview #aiko-developer-prompt-base-submit {
+  /* margin-top: 1em; */
+}
+
+/* Share prompt popup */
+.aiko-developer-corner-box {
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  z-index: 9999;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.3);
+  padding: 1em;
+  display: none;
+  width: 250px;
+}
+.aiko-developer-corner-box .aiko-developer-corner-box-content .aiko-developer-corner-box-top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.aiko-developer-corner-box .aiko-developer-corner-box-content .aiko-developer-corner-box-top .aiko-developer-corner-box-headline {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 0;
+}
+.aiko-developer-corner-box .aiko-developer-corner-box-content .aiko-developer-corner-box-top .aiko-developer-corner-box-text {
+  font-size: 1em;
+  color: #23282d;
+  margin: 0;
+}
+.aiko-developer-corner-box .aiko-developer-corner-box-content .aiko-developer-corner-box-top .aiko-developer-corner-box-button {
+  background-color: #853aff;
+}
+.aiko-developer-corner-box .aiko-developer-corner-box-content .aiko-developer-corner-box-close {
+  margin: 0;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
+.aiko-developer-corner-box .aiko-developer-corner-box-content .aiko-developer-corner-box-close:before {
+  cursor: pointer;
+  font: normal 20px/1 dashicons;
+  content: "";
+  text-align: center;
+  color: #444;
+  opacity: 0.5;
+}
+.aiko-developer-corner-box .aiko-developer-corner-box-content .aiko-developer-corner-box-close:hover:before {
+  opacity: 1;
+}
+
+#aiko-developer-submit-prompt-popup-overlay .aiko-developer-popup-content {
+  height: auto;
+  max-height: 85%;
+  overflow-x: auto;
+}
+#aiko-developer-submit-prompt-popup-overlay .aiko-developer-popup-content-info {
+  background: #f3f3f3;
+  border: 1px solid #c3c4c7;
+  border-left-width: 4px;
+  border-left-color: #853aff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  padding: 12px 12px;
+}
+#aiko-developer-submit-prompt-popup-overlay .aiko-developer-popup-content-text {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+#aiko-developer-submit-prompt-popup-overlay .aiko-developer-popup-content-text h4 {
+  margin-bottom: 1em !important;
+}
+#aiko-developer-submit-prompt-popup-overlay .aiko-developer-submit-prompt-popup-content-data-basic {
+  display: flex;
+  gap: 1em;
+}
+#aiko-developer-submit-prompt-popup-overlay .aiko-developer-submit-prompt-popup-content-data-basic p {
+  margin: 0;
+}
+#aiko-developer-submit-prompt-popup-overlay .aiko-developer-submit-prompt-popup-content-data {
+  display: flex;
+  gap: 1em;
+}
+#aiko-developer-submit-prompt-popup-overlay .aiko-developer-submit-prompt-popup-content-data p {
+  margin: 0;
+}
+#aiko-developer-submit-prompt-popup-overlay .aiko-developer-submit-prompt-popup-content-prompt {
+  margin-top: 1em;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  max-height: 19em;
+  overflow-y: scroll;
+}
+#aiko-developer-submit-prompt-popup-overlay .aiko-developer-submit-prompt-popup-content-prompt #aiko-developer-submit-prompt-fr {
+  margin: 1em 0;
+}
+#aiko-developer-submit-prompt-popup-overlay .aiko-developer-submit-prompt-popup-content-prompt #aiko-developer-submit-prompt-fr-val {
+  margin: 1em 0;
+}
+#aiko-developer-submit-prompt-popup-overlay .aiko-developer-submit-prompt-popup-content-comment p {
+  margin: 0;
+}
+
+/* Lite special */
+#aiko-developer-buy-full-wrapper {
+  padding: 1em;
+  background: white;
+  border: 2px solid green;
+  border-radius: 5px;
+  margin: 1em 0;
+  /* align-items: center; */
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+#aiko-developer-buy-full-wrapper.aiko-developer-buy-full-settings {
+  max-width: 920px;
+}
+#aiko-developer-buy-full-wrapper h2 {
+  padding: 0 0 0.5em 0;
+  font-size: 1.2em;
+  margin: 0 0 0.5em 0;
+  border-bottom: 1px solid #ccc;
+  flex-basis: 100%;
+  width: 100%;
+}
+#aiko-developer-buy-full-wrapper p {
+  padding: 0;
+  margin: 0;
+}
+#aiko-developer-buy-full-wrapper p:last-of-type {
+  padding-top: 1em;
+}
+
+#aiko-developer-chatbox-messages #aiko-developer-buy-full-wrapper {
+  margin: 1em;
+}
+
+.aiko-developer-lite #aiko-developer-chatbox-comment {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.aiko-developer-welcome-wrapper.aiko-developer-lite-welcome-wrapper h1 {
+  background-image: url("/wp-content/plugins/aiko-developer-lite/framework/img/welcome_logo_white_lite.png");
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,618 @@
+.bt_rc_icon_preview:before {
+	content: attr(data-icon-code);
+}
+.bt_rc_icon_preview {
+	/*vertical-align: middle;*/
+}
+
+.bt_rc_iconpicker .bt_rc_iconpicker_icons .bt_rc_icon_preview {
+    height: 46px;
+	font-size: 36px;
+	padding: 5px 0px;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_fa {
+	font-family: FontAwesome;
+}
+.bt_rc_icon_preview.bt_rc_icon_preview_s7 {
+	font-family: Icon7Stroke;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_dg {
+	font-family: Dialogue;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_es {
+	font-family: Essential;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_gl {
+	font-family: Glasses;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_hp {
+	font-family: Hospital;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_hs {
+	font-family: Hospital-2;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_md {
+	font-family: Medical;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_ms {
+	font-family: Medical-Set;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_op {
+	font-family: Optometry;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_pl {
+	font-family: Pins-Locations;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_tw {
+	font-family: Teamwork;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_tc {
+	font-family: Technology-Collection;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_hc {
+	font-family: HealthCheckups;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_ho {
+	font-family: HumanOrgansBody;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_me {
+	font-family: Medical-2;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_xr {
+	font-family: XRayUltrasound;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_cv {
+	font-family: CoronaVirus;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_vt {
+	font-family: VirusTransmission;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_fs {
+	font-family: FontAwesome5Solid;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_fr {
+	font-family: FontAwesome5Regular;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_fb {
+	font-family: FontAwesome5Brands;
+}
+
+
+/* FontAwesome */
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('/wp-content/themes/medicare/fonts/fontawesome-webfont.eot?v=4.3.0');
+    src: url('/wp-content/themes/medicare/fonts/fontawesome-webfont.eot#iefix&v=4.3.0') format('embedded-opentype'), url('/wp-content/themes/medicare/fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('/wp-content/themes/medicare/fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('/wp-content/themes/medicare/fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('/wp-content/themes/medicare/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*  7-stroke (http://themes-pixeden.com/font-demos/7-stroke/index.html) */
+
+@font-face {
+    font-family: 'Icon7Stroke';
+    src:url('/wp-content/themes/medicare/fonts/Pe-icon-7-stroke.eot?d7yf1v');
+    src:url('/wp-content/themes/medicare/fonts/Pe-icon-7-stroke.eot#iefixd7yf1v') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/Pe-icon-7-stroke.woff?d7yf1v') format('woff'),
+    url('/wp-content/themes/medicare/fonts/Pe-icon-7-stroke.ttf?d7yf1v') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/Pe-icon-7-stroke.svg?d7yf1v#Pe-icon-7-stroke') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}  
+
+/* Custom icons */
+
+/*  btMedical (custom icons set by Bold Themes) */
+
+@font-face {
+    font-family: 'btmedical';
+    src:url('/wp-content/themes/medicare/fonts/btmedical.eot?uxxznt');
+    src:url('/wp-content/themes/medicare/fonts/btmedical.eot?uxxznt#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/btmedical.ttf?uxxznt') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/btmedical.woff?uxxznt') format('woff'),
+    url('/wp-content/themes/medicare/fonts/btmedical.svg?uxxznt#btmedical') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*  Dialogue */
+@font-face {
+    font-family: 'Dialogue';
+    src:url('/wp-content/themes/medicare/fonts/Dialogue.eot?llj31m');
+    src:url('/wp-content/themes/medicare/fonts/Dialogue.eot?llj31m#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/Dialogue.ttf?llj31m') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/Dialogue.woff?llj31m') format('woff'),
+    url('/wp-content/themes/medicare/fonts/Dialogue.svg?llj31m#Dialogue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*  Essential */
+@font-face {
+    font-family: 'Essential';
+    src:url('/wp-content/themes/medicare/fonts/Essential.eot?ljkb42');
+    src:url('/wp-content/themes/medicare/fonts/Essential.eot?ljkb42#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/Essential.ttf?ljkb42') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/Essential.woff?ljkb42') format('woff'),
+    url('/wp-content/themes/medicare/fonts/Essential.svg?ljkb42#Essential') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  Glasses */
+@font-face {
+    font-family: 'Glasses';
+    src:url('/wp-content/themes/medicare/fonts/Glasses.eot?ihgsb3');
+    src:url('/wp-content/themes/medicare/fonts/Glasses.eot?ihgsb3#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/Glasses.ttf?ihgsb3') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/Glasses.woff?ihgsb3') format('woff'),
+    url('/wp-content/themes/medicare/fonts/Glasses.svg?ihgsb3#Glasses') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  Hospital */
+@font-face {
+    font-family: 'Hospital';
+    src:url('/wp-content/themes/medicare/fonts/Hospital.eot?qkeonf');
+    src:url('/wp-content/themes/medicare/fonts/Hospital.eot?qkeonf#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/Hospital.ttf?qkeonf') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/Hospital.woff?qkeonf') format('woff'),
+    url('/wp-content/themes/medicare/fonts/Hospital.svg?qkeonf#Hospital') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  Hospital 2 */
+@font-face {
+    font-family: 'Hospital-2';
+    src:url('/wp-content/themes/medicare/fonts/Hospital-2.eot?tvrq72d');
+    src:url('/wp-content/themes/medicare/fonts/Hospital-2.eot?tvrq72d#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/Hospital-2.ttf?tvrq72d') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/Hospital-2.woff?tvrq72d') format('woff'),
+    url('/wp-content/themes/medicare/fonts/Hospital-2.svg?tvrq72d#Hospital-2') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  Medical */
+@font-face {
+    font-family: 'Medical';
+    src:url('/wp-content/themes/medicare/fonts/Medical.eot?a87gfe');
+    src:url('/wp-content/themes/medicare/fonts/Medical.eot?a87gfe#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/Medical.ttf?a87gfe') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/Medical.woff?a87gfe') format('woff'),
+    url('/wp-content/themes/medicare/fonts/Medical.svg?a87gfe#Medical') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  Medical Set */
+@font-face {
+    font-family: 'Medical-Set';
+    src:url('/wp-content/themes/medicare/fonts/Medical-Set.eot?onir9v');
+    src:url('/wp-content/themes/medicare/fonts/Medical-Set.eot?onir9v#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/Medical-Set.ttf?onir9v') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/Medical-Set.woff?onir9v') format('woff'),
+    url('/wp-content/themes/medicare/fonts/Medical-Set.svg?onir9v#Medical-Set') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  Optometry */
+@font-face {
+    font-family: 'Optometry';
+    src:url('/wp-content/themes/medicare/fonts/Optometry.eot?x9hfwf');
+    src:url('/wp-content/themes/medicare/fonts/Optometry.eot?x9hfwf#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/Optometry.ttf?x9hfwf') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/Optometry.woff?x9hfwf') format('woff'),
+    url('/wp-content/themes/medicare/fonts/Optometry.svg?x9hfwf#Optometry') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  Pins Locations */
+@font-face {
+    font-family: 'Pins-Locations';
+    src:url('/wp-content/themes/medicare/fonts/Pins-Locations.eot?py9dnv');
+    src:url('/wp-content/themes/medicare/fonts/Pins-Locations.eot?py9dnv#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/Pins-Locations.ttf?py9dnv') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/Pins-Locations.woff?py9dnv') format('woff'),
+    url('/wp-content/themes/medicare/fonts/Pins-Locations.svg?py9dnv#Pins-Locations') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  Teamwork */
+@font-face {
+    font-family: 'Teamwork';
+    src:url('/wp-content/themes/medicare/fonts/Teamwork.eot?sbgf0q');
+    src:url('/wp-content/themes/medicare/fonts/Teamwork.eot?sbgf0q#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/Teamwork.ttf?sbgf0q') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/Teamwork.woff?sbgf0q') format('woff'),
+    url('/wp-content/themes/medicare/fonts/Teamwork.svg?sbgf0q#Teamwork') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  Technology Collection */
+@font-face {
+    font-family: 'Technology-Collection';
+    src:url('/wp-content/themes/medicare/fonts/Technology-Collection.eot?sdr0gav');
+    src:url('/wp-content/themes/medicare/fonts/Technology-Collection.eot?sdr0gav#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/Technology-Collection.ttf?sdr0gav') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/Technology-Collection.woff?sdr0gav') format('woff'),
+    url('/wp-content/themes/medicare/fonts/Technology-Collection.svg?sdr0gav#Technology-Collection') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  Health Checkups */
+@font-face {
+    font-family: 'HealthCheckups';
+    src:url('/wp-content/themes/medicare/fonts/HealthCheckups.eot?dflkndfa');
+    src:url('/wp-content/themes/medicare/fonts/HealthCheckups.eot?dflkndfa#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/HealthCheckups.ttf?dflkndfa') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/HealthCheckups.woff?dflkndfa') format('woff'),
+    url('/wp-content/themes/medicare/fonts/HealthCheckups.svg?dflkndfa#HealthCheckups') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  Human Organs & Body */
+@font-face {
+    font-family: 'HumanOrgansBody';
+    src:url('/wp-content/themes/medicare/fonts/HumanOrgansBody.eot?kndfana');
+    src:url('/wp-content/themes/medicare/fonts/HumanOrgansBody.eot?kndfana#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/HumanOrgansBody.ttf?kndfana') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/HumanOrgansBody.woff?kndfana') format('woff'),
+    url('/wp-content/themes/medicare/fonts/HumanOrgansBody.svg?kndfana#HumanOrgansBody') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  Medical-2 */
+@font-face {
+    font-family: 'Medical-2';
+    src:url('/wp-content/themes/medicare/fonts/Medical-2.eot?berf35n');
+    src:url('/wp-content/themes/medicare/fonts/Medical-2.eot?berf35n#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/Medical-2.ttf?berf35n') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/Medical-2.woff?berf35n') format('woff'),
+    url('/wp-content/themes/medicare/fonts/Medical-2.svg?berf35n#Medical-2') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  XRay & Ultrasound */
+@font-face {
+    font-family: 'XRayUltrasound';
+    src:url('/wp-content/themes/medicare/fonts/XRayUltrasound.eot?qwljb3d');
+    src:url('/wp-content/themes/medicare/fonts/XRayUltrasound.eot?qwljb3d#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/XRayUltrasound.ttf?qwljb3d') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/XRayUltrasound.woff?qwljb3d') format('woff'),
+    url('/wp-content/themes/medicare/fonts/XRayUltrasound.svg?qwljb3d#XRayUltrasound') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  CoronaVirus */
+@font-face {
+    font-family: 'CoronaVirus';
+    src:url('/wp-content/themes/medicare/fonts/CoronaVirus.eot?kjb31b4');
+    src:url('/wp-content/themes/medicare/fonts/CoronaVirus.eot?kjb31b4#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/CoronaVirus.ttf?kjb31b4') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/CoronaVirus.woff?kjb31b4') format('woff'),
+    url('/wp-content/themes/medicare/fonts/CoronaVirus.svg?kjb31b4#CoronaVirus') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  Virus Transmission */
+@font-face {
+    font-family: 'VirusTransmission';
+    src:url('/wp-content/themes/medicare/fonts/VirusTransmission.eot?paodu11');
+    src:url('/wp-content/themes/medicare/fonts/VirusTransmission.eot?paodu11#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/VirusTransmission.ttf?paodu11') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/VirusTransmission.woff?paodu11') format('woff'),
+    url('/wp-content/themes/medicare/fonts/VirusTransmission.svg?paodu11#VirusTransmission') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  Font Awesome 5 Regular */
+@font-face {
+    font-family: 'FontAwesome5Regular';
+    src:url('/wp-content/themes/medicare/fonts/FontAwesome5Regular.eot?djfl3fn');
+    src:url('/wp-content/themes/medicare/fonts/FontAwesome5Regular.eot?djfl3fn#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/FontAwesome5Regular.ttf?djfl3fn') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/FontAwesome5Regular.woff?djfl3fn') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*  Font Awesome 5 Solid */
+@font-face {
+    font-family: 'FontAwesome5Solid';
+    src:url('/wp-content/themes/medicare/fonts/FontAwesome5Solid.eot?wrg3adj');
+    src:url('/wp-content/themes/medicare/fonts/FontAwesome5Solid.eot?wrg3adj#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/FontAwesome5Solid.ttf?wrg3adj') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/FontAwesome5Solid.woff?wrg3adj') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*  Font Awesome 5 Brands */
+@font-face {
+    font-family: 'FontAwesome5Brands';
+    src:url('/wp-content/themes/medicare/fonts/FontAwesome5Brands.eot?eqfdadyd');
+    src:url('/wp-content/themes/medicare/fonts/FontAwesome5Brands.eot?eqfdadyd#iefix') format('embedded-opentype'),
+    url('/wp-content/themes/medicare/fonts/FontAwesome5Brands.ttf?eqfdadyd') format('truetype'),
+    url('/wp-content/themes/medicare/fonts/FontAwesome5Brands.woff?eqfdadyd') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+.bt_bb_icon_preview.bt_bb_icon_preview_cs {
+	font-family: btmedical;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_cs:before {
+	content: attr(data-ico-cs);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_dg {
+	font-family: Dialogue;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_dg:before {
+	content: attr(data-ico-dg);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_es {
+	font-family: Essential;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_es:before {
+	content: attr(data-ico-es);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_gl {
+	font-family: Glasses;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_gl:before {
+	content: attr(data-ico-gl);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_hp {
+	font-family: Hospital;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_hp:before {
+	content: attr(data-ico-hp);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_hs {
+	font-family: Hospital-2;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_hs:before {
+	content: attr(data-ico-hs);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_md {
+	font-family: Medical;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_md:before {
+	content: attr(data-ico-md);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_ms {
+	font-family: Medical-Set;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_ms:before {
+	content: attr(data-ico-ms);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_op {
+	font-family: Optometry;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_op:before {
+	content: attr(data-ico-op);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_pl {
+	font-family: Pins-Locations;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_pl:before {
+	content: attr(data-ico-pl);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_tw {
+	font-family: Teamwork;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_tw:before {
+	content: attr(data-ico-tw);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_tc {
+	font-family: Technology-Collection;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_tc:before {
+	content: attr(data-ico-tc);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_hc {
+	font-family: HealthCheckups;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_hc:before {
+	content: attr(data-ico-hc);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_ho {
+	font-family: HumanOrgansBody;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_ho:before {
+	content: attr(data-ico-ho);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_me {
+	font-family: Medical-2;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_me:before {
+	content: attr(data-ico-me);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_xr {
+	font-family: XRayUltrasound;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_xr:before {
+	content: attr(data-ico-xr);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_cv {
+	font-family: CoronaVirus;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_cv:before {
+	content: attr(data-ico-cv);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_vt {
+	font-family: VirusTransmission;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_vt:before {
+	content: attr(data-ico-vt);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_fr {
+	font-family: FontAwesome5Regular;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_fr:before {
+	content: attr(data-ico-fr);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_fs {
+	font-family: FontAwesome5Solid;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_fs:before {
+	content: attr(data-ico-fs);
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_fb {
+	font-family: FontAwesome5Brands;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_fb:before {
+	content: attr(data-ico-fb);
+}
+
+.bt_bb_iconpicker .bt_bb_icon_preview:before {
+    content: attr(data-icon-code);
+}
+    
+/* Material icons */
+@font-face {
+	font-family: 'MaterialIcons';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Material Icons'), local('MaterialIcons-Regular'), url('https://fonts.gstatic.com/s/materialicons/v20/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2') format('woff2');
+}
+
+/* New elements */
+.bt_bb_dialog_content .bt_bb_icon_bt_bb_progress_bar_advanced:before {
+	font-family: 'MaterialIcons' !important;
+	content: '\e068';
+}
+#bt_bb > .bt_bb_item_list > .bt_bb_wrap .bt_bb_item .bt_bb_item .bt_bb_item .bt_bb_item.bt_bb_icon_bt_bb_progress_bar_advanced:before {
+	font-family: 'MaterialIcons' !important;
+	content: '\e068';
+}					
+.bt_bb_dialog_content .bt_bb_icon_bt_bb_masonry_portfolio_grid:before {
+	content: '\e955';
+}
+#bt_bb > .bt_bb_item_list > .bt_bb_wrap .bt_bb_item .bt_bb_item .bt_bb_item .bt_bb_item.bt_bb_icon_bt_bb_masonry_portfolio_grid:before {
+	content: '\e955';
+}					
+.bt_bb_dialog_content .bt_bb_icon_bt_bb_masonry_portfolio_tiles:before {
+	content: '\e906';
+}
+#bt_bb > .bt_bb_item_list > .bt_bb_wrap .bt_bb_item .bt_bb_item .bt_bb_item .bt_bb_item.bt_bb_icon_bt_bb_masonry_portfolio_tiles:before {
+	content: '\e906';
+}					
+#bt_bb > .bt_bb_item_list > .bt_bb_wrap .bt_bb_item .bt_bb_item .bt_bb_item .bt_bb_item.bt_bb_icon_bt_bb_dropdown:before, 
+.bt_bb_dialog_content .bt_bb_icon_bt_bb_dropdown:before {
+	content: "\e958";
+}
+#bt_bb > .bt_bb_item_list > .bt_bb_wrap .bt_bb_item .bt_bb_item .bt_bb_item .bt_bb_item.bt_bb_icon_bt_bb_working_hours:before, 
+.bt_bb_dialog_content .bt_bb_icon_bt_bb_working_hours:before {
+	font-family: 'MaterialIcons' !important;
+	content: "\e855";
+}
+#bt_bb > .bt_bb_item_list > .bt_bb_wrap .bt_bb_item .bt_bb_item .bt_bb_item .bt_bb_item.bt_bb_icon_bt_bb_before_after_image:before, 
+.bt_bb_dialog_content .bt_bb_icon_bt_bb_before_after_image:before {
+	font-family: 'MaterialIcons' !important;
+	content: "\e8d4";
+}
+#bt_bb > .bt_bb_item_list > .bt_bb_wrap .bt_bb_item .bt_bb_item .bt_bb_item .bt_bb_item.bt_bb_icon_bt_bb_timetable:before, 
+.bt_bb_dialog_content .bt_bb_icon_bt_bb_timetable:before {
+	font-family: 'MaterialIcons' !important;
+	content: "\e3ec";
+}
+
+/* Settings metabox */
+.rwmb-meta-box .rwmb-field.rwmb-boldthemestext-wrapper {
+	width: 100%;
+	float: none;
+}
+
+.rwmb-input input[type="text"],
+.rwmb-meta-box .rwmb-field.rwmb-boldthemestext-wrapper input,
+.rwmb-meta-box .rwmb-field.rwmb-boldthemestext-wrapper select {
+	width: 250px;
+}
+.rwmb-meta-box .rwmb-field.rwmb-boldthemestext-wrapper input[type="checkbox"] {
+	width: 16px;
+}
+
+/* Meta Box */
+.rwmb-boldthemestext-wrapper option:disabled {
+	font-weight: bold;
+	color: #0073aa;
+}
+.rwmb-boldthemestext-clone select {
+	height: auto;
+}
+.rwmb-boldthemestext-clone input[type="text"] {
+	vertical-align: middle;
+}
+.rwmb-boldthemestext-clone select.boldthemes_key_select {
+	float: left;
+	margin-right: 3px;
+}
+.rwmb-boldthemestext-clone .wp-picker-container {
+	margin-top: 2px;
+}
+.rwmb-boldthemestext-clone input[type="checkbox"].boldthemes_value {
+	margin: 6px 3px 7px !important;
+}
+.rwmb-boldthemestext-clone .wp-picker-container .wp-color-result {
+	margin-bottom: 3px;
+}
+.rwmb-boldthemestext-clone img {
+	width: auto;
+    height: 27px;
+    vertical-align: middle;
+	margin-left: 3px;
+}
+.rwmb-boldthemestext-clone .boldthemes_override_add_image {
+	cursor: pointer;
+	margin-left: 3px;
+	color: #0073aa;
+    display: inline-block;
+}
+.rwmb-label {
+	padding-right: 1%;
+	box-sizing: border-box;
+}

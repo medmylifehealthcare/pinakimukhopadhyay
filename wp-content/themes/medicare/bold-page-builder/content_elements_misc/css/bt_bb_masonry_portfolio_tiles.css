@@ -1,0 +1,48 @@
+/* Masonry Portfolio Grid */
+.bt_bb_masonry_portfolio_tiles .bt_bb_grid_item {
+	overflow: hidden;
+}
+.bt_bb_masonry_portfolio_tiles .bt_bb_grid_item_inner {
+	overflow: hidden;
+}
+.bt_bb_masonry_portfolio_tiles .bt_bb_grid_item_inner > .bt_bb_grid_item_inner_image {
+	cursor: pointer;
+	display: block;
+	float: left;
+	width: 100%;
+}
+.bt_bb_masonry_portfolio_tiles .bt_bb_grid_item_inner:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.bt_bb_masonry_portfolio_tiles.bt_bb_gap_small .bt_bb_masonry_post_grid_content {
+	margin-left: -5px;
+	margin-top: -5px;
+}
+.bt_bb_masonry_portfolio_tiles.bt_bb_gap_small .bt_bb_masonry_post_image_content .bt_bb_grid_item_inner .bt_bb_grid_item_post_thumbnail {
+	-webkit-transform: translate(5px,5px);
+	-moz-transform: translate(5px,5px);
+	-ms-transform: translate(5px,5px);
+	transform: translate(5px,5px);
+}
+.bt_bb_masonry_portfolio_tiles.bt_bb_gap_normal .bt_bb_masonry_post_grid_content {
+	margin-left: -10px;
+	margin-top: -10px;
+}
+.bt_bb_masonry_portfolio_tiles.bt_bb_gap_normal .bt_bb_masonry_post_image_content .bt_bb_grid_item_inner .bt_bb_grid_item_post_thumbnail {
+	-webkit-transform: translate(10px,10px);
+	-moz-transform: translate(10px,10px);
+	-ms-transform: translate(10px,10px);
+	transform: translate(10px,10px);
+}
+.bt_bb_masonry_portfolio_tiles.bt_bb_gap_large .bt_bb_masonry_post_grid_content {
+	margin-left: -20px;
+	margin-top: -20px;
+}
+.bt_bb_masonry_portfolio_tiles.bt_bb_gap_large .bt_bb_masonry_post_image_content .bt_bb_grid_item_inner .bt_bb_grid_item_post_thumbnail {
+	-webkit-transform: translate(20px,20px);
+	-moz-transform: translate(20px,20px);
+	-ms-transform: translate(20px,20px);
+	transform: translate(20px,20px);
+}

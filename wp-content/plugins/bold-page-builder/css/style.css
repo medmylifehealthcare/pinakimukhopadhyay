@@ -1,0 +1,11 @@
+/* Base */
+@import url("/wp-content/plugins/bold-page-builder/css/base.css");
+/* Toolbars */
+@import url("/wp-content/plugins/bold-page-builder/css/toolbars.css");
+/* Structure */
+@import url("/wp-content/plugins/bold-page-builder/css/structure.css");
+/* Dialog */
+@import url("/wp-content/plugins/bold-page-builder/css/dialog.css");
+/* Controls */
+@import url("/wp-content/plugins/bold-page-builder/css/controls.css");  
+

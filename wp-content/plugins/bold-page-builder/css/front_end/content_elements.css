@@ -1,0 +1,54 @@
+/* Variables */
+
+@set horizontalPadding 20; /* Paddings */
+@set gutterWidth 1200; /* Gutter */
+@set softBorderRadius 5px; /* Soft border radius */
+@set hardBorderRadius 20px; /* Hard border radius */
+
+/* Selectors */
+
+@selector leftAlignSelector :any(.bt_bb_align_right .bt_bb_align_left&, .bt_bb_align_center .bt_bb_align_left&, .bt_bb_align_right .bt_bb_align_left &, .bt_bb_align_center .bt_bb_align_left &, .bt_bb_align_left&, .bt_bb_align_left &);
+@selector rightAlignSelector :any(.bt_bb_align_left .bt_bb_align_right&, .bt_bb_align_center .bt_bb_align_right&, .bt_bb_align_left .bt_bb_align_right &, .bt_bb_align_center .bt_bb_align_right &, .bt_bb_align_right&, .bt_bb_align_right &);
+@selector centerAlignSelector :any(.bt_bb_align_left .bt_bb_align_center&, .bt_bb_align_right .bt_bb_align_center&, .bt_bb_align_left .bt_bb_align_center &, .bt_bb_align_right .bt_bb_align_center &, .bt_bb_align_center&, .bt_bb_align_center &);
+@selector centerAlignSelectorFix :any(.bt_bb_column_inner.bt_bb_align_center .bt_bb_align_center&, .bt_bb_column_inner.bt_bb_align_center .bt_bb_align_inherit&, .bt_bb_column.bt_bb_align_center .bt_bb_align_inherit&, .bt_bb_column.bt_bb_align_center .bt_bb_align_center&);
+
+/* Base classes */
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/base.css");
+
+/* Sections, rows and columns */
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/grid.css");
+
+/* Content elements */
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/sections.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/icons.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/buttons.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/separators.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/headlines.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/texts.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/images.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/service_items.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/tabs.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/accordions.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/video.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/slider.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/post_grid.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/price_list.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/latest_post.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/custom_menu.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/progress_bar.css");
+/*@import url("/wp-content/plugins/bold-page-builder/css/front_end/google_map.css");*/
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/open_map.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/cost_calculator.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/animations.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/screens.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/counter.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/twitter_feed.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/insta_feed.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/widgets.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/countdown.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/css_image_grid.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/css_post_grid.css");
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/ie.css");
+
+/* External libs override */
+@import url("/wp-content/plugins/bold-page-builder/css/front_end/magnific-popup.css");

@@ -1,0 +1,65 @@
+:host {
+	all: initial; 
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	font-size: 13px;
+	color: #777;
+}
+.disabled {
+	opacity: .5;
+	pointer-events: none;
+}
+span {
+	flex-basis: 33%;
+	text-align: center;
+	padding: 1rem 0.8em;
+	cursor: pointer;
+	transition: 270ms ease all;
+}
+span:hover {
+	color: #0367b4;
+}
+span:hover:before { 
+	color: #0367b4;
+}
+span:before { 
+	font: normal 21px/1 bold-builder;
+	transition: 270ms ease all;
+}
+span#delete:hover {
+	color: #ff0000;
+}
+span#delete:hover:before {
+	color: #ff0000;
+}
+#up:before { 
+	content: '\e957';
+}
+#clone:before { 
+	content: '\e935';
+}
+#delete:before { 
+	content: '\e94c';
+}
+#doc:before { 
+	content: '\e647';
+	font: normal 18px/1 Icon7Stroke;
+	color: #0367b4;
+}
+#doc a {
+	font-size: 12px;
+	padding-left: 0.25rem;
+	color: #0367b4;
+	text-decoration: none;
+}
+#doc {
+	padding-right: 0;
+	flex-basis: 50%;
+	display: flex;
+	align-items: center;
+	gap: 2px;
+}
+
+body.rtl #doc a {
+	padding-left: 0;
+	padding-right: 0.25rem;
+}
